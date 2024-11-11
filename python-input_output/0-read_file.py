@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-read_file = __import
-def read_file(filename=""):
-    """
-    Reads a text file (UTF-8) and prints it to stdout.
-    """
-    with open(filename, "r", encoding="utf-8") as file:
-        print(file.read())
+'''A python script that can execute the contents of a file'''
 
+
+def read_file(filename=""):
+    '''Reads the data from outside file '''
+    with open(filename, encoding="utf-8") as f:
+        read_data = f.read()
+        print(read_data, end="")
