@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 class Rectangle {
@@ -25,4 +24,4 @@ class Rectangle {
   }
 }
 
-module.exports = Rectangle;:wq
+module.exports = Rectangle;
